@@ -19,5 +19,5 @@ steps:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
 
-- script: install robotframework robotframework-seleniumlibrary && npm install chromedriver
+- script: pip install robotframework robotframework-seleniumlibrary && npm install chromedriver
   displayName: 'Install dependencies'
