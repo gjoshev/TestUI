@@ -28,3 +28,6 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
+
+- script: install robotframework robotframework-seleniumlibrary && npm install chromedriver
+  displayName: 'Install dependencies'
