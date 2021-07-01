@@ -26,6 +26,4 @@ steps:
 - script: pip install robotframework robotframework-seleniumlibrary && npm install geckodriver
   displayName: 'Install dependencies'
 
-- script: python demoapp/server.py
-
 - powershell: robot --pythonpath . login_tests
