@@ -21,6 +21,7 @@ steps:
   displayName: 'Use Python $(python.version)'
   
 - script: pip install -r requirements.txt
+  displayName: 'Install requirements'
 
 - script: pip install robotframework robotframework-seleniumlibrary && npm install geckodriver
   displayName: 'Install dependencies'
